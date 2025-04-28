@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Survey - DIGNA, Web Developer">
+    <meta name="keywords" content="Survey, Feedback, Web Developer">
+    <meta name="author" content="DIGNA">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey - DIGNA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Survey</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Toggle Dark/Light Mode</button>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Your Feedback Matters!</h2>
+            <form id="survey-form" action="#" method="post">
+                <label for="experience">How was your experience?</label><br>
+                <input type="radio" name="experience" value="excellent" required> Excellent
+                <input type="radio" name="experience" value="good"> Good
+                <input type="radio" name="experience" value="average"> Average
+                <input type="radio" name="experience" value="poor"> Poor<br><br>
+
+                <label for="features">Which features did you like?</label><br>
+                <input type="checkbox" name="features" value="design"> Design
+                <input type="checkbox" name="features" value="content"> Content
+                <input type="checkbox" name="features" value="usability"> Usability
+                <input type="checkbox" name="features" value="performance"> Performance<br><br>
+
+                <label for="comments">Additional Comments:</label><br>
+                <textarea id="comments" name="comments" rows="5"></textarea><br><br>
+
+                <button type="submit">Submit Survey</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Digna Andrea. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

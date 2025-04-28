@@ -1,0 +1,24 @@
+# Personal Portfolio Website
+
+**Tools Used:**
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+**Key Features:**
+- Responsive Design
+- Dark/Light Mode Toggle
+- Contact Form with Validation
+- Survey Form with Radio, Checkbox, Textarea
+- Dynamic Show/Hide Project Details
+
+**Challenges Faced:**
+- Learning responsive layouts
+- Form validation with regex
+- Handling DOM elements dynamically
+
+**Solutions:**
+- Used media queries for responsiveness
+- Used regular expressions for form validation
+- Practiced DOM manipulation and event listeners
+
